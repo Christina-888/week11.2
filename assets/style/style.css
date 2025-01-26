@@ -10,6 +10,16 @@
   justify-content: center;
 }
 
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container__image {
+  border-radius: 2%;
+}
+
 .costs {
   font-size: 2vw;
   font-weight: 600;
@@ -32,6 +42,6 @@
 
 .price-container__sum {
   margin-top: 2%;
-  font-size: 1.4vw;
+  font-size: 2vw;
   font-weight: bold;
 }

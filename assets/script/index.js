@@ -12,4 +12,13 @@ const totalPrice = document.getElementById('total');
 
 let totalSum = sumOne + sumTwo + sumThree + sumFour;
 
+const countWithDiscount = () => {
+  const calculatePrice = totalSum * 0.8;
+  totalPrice.innerHTML = `ИТОГО: ${calculatePrice.toLocaleString('ru-RU')} галеонов.`
+};
+
+const tapButton = document.querySelector('.price-container__btn');
+tapButton.addEventListener('click', countWithDiscount);
+
+
 
